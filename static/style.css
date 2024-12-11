@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #d09fb4, #fed6e3);
+    color: #333;
+  }
+  .navbar {
+    background: linear-gradient(135deg, #571e35, #ba7390);
+  }
+  .navbar-brand {
+    font-weight: bold;
+    color: #fffffff0;
+  }
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .btn-primary {
+    background: linear-gradient(135deg, #571e35, #ba7390);
+    border: none;
+  }
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  }
+  .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+  }
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  .form-label i {
+    margin-right: 5px;
+    color: #ff7eb3;
+  }
+  .motivational-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  .result-card {
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  .results-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .results-row img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .table {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.516); /* White with 90% opacity */
+    border-radius: 10px; /* Optional: Makes the edges rounded */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); /* Optional: Adds a subtle shadow */
+  }
+  

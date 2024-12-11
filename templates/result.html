@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classification Result</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+      <i class="fas fa-eye"></i> Eyes Disease AI System
+    </a>
+  </div>
+</nav>
+<div class="container mt-5">
+  <div class="card shadow-sm result-card">
+    <h2 class="text-success text-center" style=" color: rgb(148, 85, 121)!important;"><i class="fas fa-chart-bar"></i> Classification Result</h2>
+    <img src="{{ image_path }}" alt="Uploaded Image" class="img-fluid mb-3" style="max-width:200px;">
+    <p class="fs-4">Predicted Class: <strong>{{ result }}</strong></p>
+    <p class="fs-5">Model: <strong>ANN with HOG Features</strong></p>
+    <p class="fs-5 text-muted">Model Accuracy: {{ classification_acc }}%</p>
+    <a href="/" class="btn btn-secondary mt-3"><i class="fas fa-arrow-left"></i> Back to Home</a>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
