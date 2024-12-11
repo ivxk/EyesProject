@@ -1,7 +1,9 @@
-flask
-gunicorn
+Flask
 opencv-python
-scikit-image
 numpy
-ultralytics
+scikit-image
 joblib
+ultralytics
+tensorflow
+keras
+gunicorn
